@@ -27,5 +27,7 @@ The installation will add a new `hello` resource in `app/resources/hello/` in th
 
 The `helloplugin.jl` initializer is defining a new route `route("/hello", HelloController.greet)`. If you restart your Genie app and navigate to `/hello` you will get the plugin's greeting.
 
+## More Info
+
 For more information about Genie plugins read the Genie docs at <https://github.com/GenieFramework/Genie.jl/blob/master/docs/content/Genie_Plugins.md>
 
